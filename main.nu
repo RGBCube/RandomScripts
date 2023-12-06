@@ -1,6 +1,6 @@
 #!/usr/bin/env nu
 
-print -n $"Çekiliş sonucu: (ansi red) "
+print -n $"Lottery number: (ansi red) "
 
 (random int 0..1500 | into string)
 | split chars
