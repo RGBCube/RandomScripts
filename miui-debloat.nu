@@ -46,7 +46,6 @@ adb shell uninstall --user 0 com.miui.hybrid
 adb shell uninstall --user 0 com.miui.hybrid.accessory
 adb shell uninstall --user 0 com.miui.klo.bugreport
 adb shell uninstall --user 0 com.miui.miservice
-adb shell uninstall --user 0 com.miui.miwallpaper
 adb shell uninstall --user 0 com.miui.msa.global
 adb shell uninstall --user 0 com.miui.player
 adb shell uninstall --user 0 com.miui.providers.weather
