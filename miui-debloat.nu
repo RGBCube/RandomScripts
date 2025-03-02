@@ -4,7 +4,6 @@ adb shell uninstall --user 0 com.amazon.appmanager
 adb shell uninstall --user 0 com.android.browser
 adb shell uninstall --user 0 com.android.chrome
 adb shell uninstall --user 0 com.android.email
-adb shell uninstall --user 0 com.android.thememanager
 adb shell uninstall --user 0 com.android.wallpaper.livepicker
 adb shell uninstall --user 0 com.facebook.services
 adb shell uninstall --user 0 com.facebook.system
