@@ -53,6 +53,7 @@ const ids = [
   com.google.android.tts
   com.google.android.videos
   com.google.android.videos
+  com.google.android.wearable.assistant
   com.google.android.youtube
   com.google.ar.lens
   com.google.audio.hearing.visualization.accessibility.scribe
