@@ -1,149 +1,149 @@
 #!/usr/bin/env nu
 
-adb shell uninstall --user 0 com.amazon.appmanager
-adb shell uninstall --user 0 com.android.browser
-adb shell uninstall --user 0 com.android.chrome
-adb shell uninstall --user 0 com.android.email
-adb shell uninstall --user 0 com.android.wallpaper.livepicker
-adb shell uninstall --user 0 com.facebook.services
-adb shell uninstall --user 0 com.facebook.system
-adb shell uninstall --user 0 com.facebook.appmanager
-adb shell uninstall --user 0 com.google.android.apps.docs
-adb shell uninstall --user 0 com.google.android.apps.maps
-adb shell uninstall --user 0 com.google.android.apps.photos
-adb shell uninstall --user 0 com.google.android.apps.tachyon
-adb shell uninstall --user 0 com.google.android.feedback
-adb shell uninstall --user 0 com.google.android.gm
-adb shell uninstall --user 0 com.google.android.googlequicksearchbox
-adb shell uninstall --user 0 com.google.android.marvin.talkback
-adb shell uninstall --user 0 com.google.android.music
-adb shell uninstall --user 0 com.google.android.syncadapters.calendar
-adb shell uninstall --user 0 com.google.android.syncadapters.contacts
-adb shell uninstall --user 0 com.google.android.talk
-adb shell uninstall --user 0 com.google.android.tts
-adb shell uninstall --user 0 com.google.android.videos
-adb shell uninstall --user 0 com.google.android.youtube
-adb shell uninstall --user 0 com.mfashiongallery.emag
-adb shell uninstall --user 0 com.mi.android.globalpersonalassistant
-adb shell uninstall --user 0 com.mi.dlabs.vr
-adb shell uninstall --user 0 com.mi.globalTrendNews
-adb shell uninstall --user 0 com.mi.global.bbs
-adb shell uninstall --user 0 com.mi.global.shop
-adb shell uninstall --user 0 com.mi.webkit.core
-adb shell uninstall --user 0 com.micredit.in
-adb shell uninstall --user 0 com.milink.service
-adb shell uninstall --user 0 com.mipay.wallet.id
-adb shell uninstall --user 0 com.mipay.wallet.in
-adb shell uninstall --user 0 com.miui.analytics
-adb shell uninstall --user 0 com.miui.android.fashiongallery
-adb shell uninstall --user 0 com.miui.bugreport
-adb shell uninstall --user 0 com.miui.cloudbackup
-adb shell uninstall --user 0 com.miui.cloudservice
-adb shell uninstall --user 0 com.miui.cloudservice.sysbase
-adb shell uninstall --user 0 com.miui.micloudsync
-adb shell uninstall --user 0 com.miui.hybrid
-adb shell uninstall --user 0 com.miui.hybrid.accessory
-adb shell uninstall --user 0 com.miui.klo.bugreport
-adb shell uninstall --user 0 com.miui.miservice
-adb shell uninstall --user 0 com.miui.msa.global
-adb shell uninstall --user 0 com.miui.player
-adb shell uninstall --user 0 com.miui.providers.weather
-adb shell uninstall --user 0 com.miui.screenrecorder
-adb shell uninstall --user 0 com.miui.translationservice
-adb shell uninstall --user 0 com.miui.translation.kingsoft
-adb shell uninstall --user 0 com.miui.translation.xmcloud
-adb shell uninstall --user 0 com.miui.translation.youdao
-adb shell uninstall --user 0 com.miui.touchassistant
-adb shell uninstall --user 0 com.miui.userguide
-adb shell uninstall --user 0 com.miui.videoplayer
-adb shell uninstall --user 0 com.miui.virtualsim
-adb shell uninstall --user 0 com.miui.weather2
-adb shell uninstall --user 0 com.miui.yellowpage
-adb shell uninstall --user 0 com.netflix.partner.activation
-adb shell uninstall --user 0 com.swiftkey.languageprovider
-adb shell uninstall --user 0 com.swiftkey.swiftkeyconfigurator
-adb shell uninstall --user 0 com.xiaomi.account
-adb shell uninstall --user 0 com.xiaomi.discover
-adb shell uninstall --user 0 com.xiaomi.glgm
-adb shell uninstall --user 0 com.xiaomi.joyose
-adb shell uninstall --user 0 com.xiaomi.location.fused
-adb shell uninstall --user 0 com.xiaomi.micloud.sdk
-adb shell uninstall --user 0 com.xiaomi.midrop
-adb shell uninstall --user 0 com.xiaomi.mipicks
-adb shell uninstall --user 0 com.xiaomi.miplay_client
-adb shell uninstall --user 0 com.xiaomi.mirecycle
-adb shell uninstall --user 0 com.xiaomi.oversea.ecom
-adb shell uninstall --user 0 com.xiaomi.payment
-adb shell uninstall --user 0 com.xiaomi.providers.appindex
-adb shell uninstall --user 0 com.xiaomi.xmsf
-adb pm uninstall --user 0 com.google.android.googlequicksearchbox
-adb pm uninstall --user 0 com.xiaomi.mipicks
-adb pm uninstall --user 0 com.android.browser
-adb pm uninstall --user 0 com.android.chrome
-adb pm uninstall --user 0 com.google.android.apps.tachyon
-adb pm uninstall --user 0 com.miui.bugreport
-adb pm uninstall --user 0 com.miui.gallery
-adb pm uninstall --user 0 com.google.android.videos
-adb pm uninstall --user 0 com.google.android.music
-adb pm uninstall --user 0 com.xiaomi.payment
-adb pm uninstall --user 0 com.xiaomi.midrop
-adb pm uninstall --user 0 com.miui.videoplayer
-adb pm uninstall --user 0 com.miui.notes
-adb pm uninstall --user 0 com.miui.player
-adb pm uninstall --user 0 com.google.android.apps.photos
-adb pm uninstall --user 0 com.xiaomi.scanner
-adb pm uninstall --user 0 com.miui.screenrecorder
-adb pm uninstall --user 0 com.miui.yellowpage
-adb pm uninstall --user 0 com.google.android.marvin.talkback
-adb pm uninstall --user 0 com.miui.hybrid
-adb pm uninstall --user 0 com.miui.hybrid.accessory
-adb pm uninstall --user 0 com.miui.compass
-adb pm uninstall --user 0 com.facebook.services
-adb pm uninstall --user 0 com.facebook.system
-adb pm uninstall --user 0 com.facebook.appmanager
-adb pm uninstall --user 0 com.miui.antispam
-adb pm uninstall --user 0 com.miui.klo.bugreport
-adb pm uninstall --user 0 com.mi.android.globalpersonalassistant
-adb pm uninstall --user 0 com.miui.cleanmaster
-adb pm uninstall --user 0 com.miui.analytics
-adb pm uninstall --user 0 com.miui.providers.weather
-adb pm uninstall --user 0 com.miui.weather2
-adb pm uninstall --user 0 com.google.android.talk
-adb pm uninstall --user 0 com.google.android.tts
-adb pm uninstall --user 0 com.miui.virtualsim
-adb pm uninstall --user 0 com.miui.cloudservice
-adb pm uninstall --user 0 com.miui.cloudbackup
-adb pm uninstall --user 0 com.xiaomi.account
-adb pm uninstall --user 0 com.mi.webkit.core
-adb pm uninstall --user 0 com.miui.personalassistant
-adb pm uninstall --user 0 com.android.email
-adb pm uninstall --user 0 com.android.midrive
-adb pm uninstall --user 0 com.duokan.phone.remotecontroller
-adb pm uninstall --user 0 com.android.quicksearchbox
-adb pm uninstall --user 0 com.xiaomi.finddevice
-adb pm uninstall --user 0 com.mfashiongallery.emag
-adb pm uninstall --user 0 com.google.android.apps.cloudprint
-adb pm uninstall --user 0 com.google.ar.lens
-adb pm uninstall --user 0 com.google.android.markup
-adb pm uninstall --user 0 com.xiaomi.mirecycle
-adb pm uninstall --user 0 com.miui.micloudsync
-adb pm uninstall --user 0 com.facemoji.lite.xiaomi
-adb pm uninstall --user 0 com.miui.miservice
-adb pm uninstall --user 0 com.miui.contentcatcher
-adb pm uninstall --user 0 com.miui.cloudservice.sysbase
-adb pm uninstall --user 0 com.miui.touchassistant
-adb pm uninstall --user 0 com.xiaomi.mi_connect_service
-adb pm uninstall --user 0 com.milink.service
-adb pm uninstall --user 0 com.miui.greenguard
-adb pm uninstall --user 0 com.xiaomi.miplay_client
-adb pm uninstall --user 0 com.android.printspooler
-adb pm uninstall --user 0 com.miui.mishare.connectivity
-adb pm uninstall --user 0 com.android.cellbroadcastreceiver
-adb pm uninstall --user 0 com.android.bips
-adb pm uninstall --user 0 com.android.printservice.recommendation
-adb pm uninstall --user 0 com.android.bookmarkprovider
-adb pm uninstall --user 0 com.caf.fmradio
-adb pm uninstall --user 0 com.google.android.apps.safetyhub
-adb pm uninstall --user 0 com.google.android.apps.wearables.maestro.companion
-adb pm uninstall --user 0 com.google.android.projection.gearhead
-adb pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe
+try { adb shell pm uninstall --user 0 com.amazon.appmanager }
+try { adb shell pm uninstall --user 0 com.android.browser }
+try { adb shell pm uninstall --user 0 com.android.chrome }
+try { adb shell pm uninstall --user 0 com.android.email }
+try { adb shell pm uninstall --user 0 com.android.wallpaper.livepicker }
+try { adb shell pm uninstall --user 0 com.facebook.services }
+try { adb shell pm uninstall --user 0 com.facebook.system }
+try { adb shell pm uninstall --user 0 com.facebook.appmanager }
+try { adb shell pm uninstall --user 0 com.google.android.apps.docs }
+try { adb shell pm uninstall --user 0 com.google.android.apps.maps }
+try { adb shell pm uninstall --user 0 com.google.android.apps.photos }
+try { adb shell pm uninstall --user 0 com.google.android.apps.tachyon }
+try { adb shell pm uninstall --user 0 com.google.android.feedback }
+try { adb shell pm uninstall --user 0 com.google.android.gm }
+try { adb shell pm uninstall --user 0 com.google.android.googlequicksearchbox }
+try { adb shell pm uninstall --user 0 com.google.android.marvin.talkback }
+try { adb shell pm uninstall --user 0 com.google.android.music }
+try { adb shell pm uninstall --user 0 com.google.android.syncadapters.calendar }
+try { adb shell pm uninstall --user 0 com.google.android.syncadapters.contacts }
+try { adb shell pm uninstall --user 0 com.google.android.talk }
+try { adb shell pm uninstall --user 0 com.google.android.tts }
+try { adb shell pm uninstall --user 0 com.google.android.videos }
+try { adb shell pm uninstall --user 0 com.google.android.youtube }
+try { adb shell pm uninstall --user 0 com.mfashiongallery.emag }
+try { adb shell pm uninstall --user 0 com.mi.android.globalpersonalassistant }
+try { adb shell pm uninstall --user 0 com.mi.dlabs.vr }
+try { adb shell pm uninstall --user 0 com.mi.globalTrendNews }
+try { adb shell pm uninstall --user 0 com.mi.global.bbs }
+try { adb shell pm uninstall --user 0 com.mi.global.shop }
+try { adb shell pm uninstall --user 0 com.mi.webkit.core }
+try { adb shell pm uninstall --user 0 com.micredit.in }
+try { adb shell pm uninstall --user 0 com.milink.service }
+try { adb shell pm uninstall --user 0 com.mipay.wallet.id }
+try { adb shell pm uninstall --user 0 com.mipay.wallet.in }
+try { adb shell pm uninstall --user 0 com.miui.analytics }
+try { adb shell pm uninstall --user 0 com.miui.android.fashiongallery }
+try { adb shell pm uninstall --user 0 com.miui.bugreport }
+try { adb shell pm uninstall --user 0 com.miui.cloudbackup }
+try { adb shell pm uninstall --user 0 com.miui.cloudservice }
+try { adb shell pm uninstall --user 0 com.miui.cloudservice.sysbase }
+try { adb shell pm uninstall --user 0 com.miui.micloudsync }
+try { adb shell pm uninstall --user 0 com.miui.hybrid }
+try { adb shell pm uninstall --user 0 com.miui.hybrid.accessory }
+try { adb shell pm uninstall --user 0 com.miui.klo.bugreport }
+try { adb shell pm uninstall --user 0 com.miui.miservice }
+try { adb shell pm uninstall --user 0 com.miui.msa.global }
+try { adb shell pm uninstall --user 0 com.miui.player }
+try { adb shell pm uninstall --user 0 com.miui.providers.weather }
+try { adb shell pm uninstall --user 0 com.miui.screenrecorder }
+try { adb shell pm uninstall --user 0 com.miui.translationservice }
+try { adb shell pm uninstall --user 0 com.miui.translation.kingsoft }
+try { adb shell pm uninstall --user 0 com.miui.translation.xmcloud }
+try { adb shell pm uninstall --user 0 com.miui.translation.youdao }
+try { adb shell pm uninstall --user 0 com.miui.touchassistant }
+try { adb shell pm uninstall --user 0 com.miui.userguide }
+try { adb shell pm uninstall --user 0 com.miui.videoplayer }
+try { adb shell pm uninstall --user 0 com.miui.virtualsim }
+try { adb shell pm uninstall --user 0 com.miui.weather2 }
+try { adb shell pm uninstall --user 0 com.miui.yellowpage }
+try { adb shell pm uninstall --user 0 com.netflix.partner.activation }
+try { adb shell pm uninstall --user 0 com.swiftkey.languageprovider }
+try { adb shell pm uninstall --user 0 com.swiftkey.swiftkeyconfigurator }
+try { adb shell pm uninstall --user 0 com.xiaomi.account }
+try { adb shell pm uninstall --user 0 com.xiaomi.discover }
+try { adb shell pm uninstall --user 0 com.xiaomi.glgm }
+try { adb shell pm uninstall --user 0 com.xiaomi.joyose }
+try { adb shell pm uninstall --user 0 com.xiaomi.location.fused }
+try { adb shell pm uninstall --user 0 com.xiaomi.micloud.sdk }
+try { adb shell pm uninstall --user 0 com.xiaomi.midrop }
+try { adb shell pm uninstall --user 0 com.xiaomi.mipicks }
+try { adb shell pm uninstall --user 0 com.xiaomi.miplay_client }
+try { adb shell pm uninstall --user 0 com.xiaomi.mirecycle }
+try { adb shell pm uninstall --user 0 com.xiaomi.oversea.ecom }
+try { adb shell pm uninstall --user 0 com.xiaomi.payment }
+try { adb shell pm uninstall --user 0 com.xiaomi.providers.appindex }
+try { adb shell pm uninstall --user 0 com.xiaomi.xmsf }
+try { adb shell pm uninstall --user 0 com.google.android.googlequicksearchbox }
+try { adb shell pm uninstall --user 0 com.xiaomi.mipicks }
+try { adb shell pm uninstall --user 0 com.android.browser }
+try { adb shell pm uninstall --user 0 com.android.chrome }
+try { adb shell pm uninstall --user 0 com.google.android.apps.tachyon }
+try { adb shell pm uninstall --user 0 com.miui.bugreport }
+try { adb shell pm uninstall --user 0 com.miui.gallery }
+try { adb shell pm uninstall --user 0 com.google.android.videos }
+try { adb shell pm uninstall --user 0 com.google.android.music }
+try { adb shell pm uninstall --user 0 com.xiaomi.payment }
+try { adb shell pm uninstall --user 0 com.xiaomi.midrop }
+try { adb shell pm uninstall --user 0 com.miui.videoplayer }
+try { adb shell pm uninstall --user 0 com.miui.notes }
+try { adb shell pm uninstall --user 0 com.miui.player }
+try { adb shell pm uninstall --user 0 com.google.android.apps.photos }
+try { adb shell pm uninstall --user 0 com.xiaomi.scanner }
+try { adb shell pm uninstall --user 0 com.miui.screenrecorder }
+try { adb shell pm uninstall --user 0 com.miui.yellowpage }
+try { adb shell pm uninstall --user 0 com.google.android.marvin.talkback }
+try { adb shell pm uninstall --user 0 com.miui.hybrid }
+try { adb shell pm uninstall --user 0 com.miui.hybrid.accessory }
+try { adb shell pm uninstall --user 0 com.miui.compass }
+try { adb shell pm uninstall --user 0 com.facebook.services }
+try { adb shell pm uninstall --user 0 com.facebook.system }
+try { adb shell pm uninstall --user 0 com.facebook.appmanager }
+try { adb shell pm uninstall --user 0 com.miui.antispam }
+try { adb shell pm uninstall --user 0 com.miui.klo.bugreport }
+try { adb shell pm uninstall --user 0 com.mi.android.globalpersonalassistant }
+try { adb shell pm uninstall --user 0 com.miui.cleanmaster }
+try { adb shell pm uninstall --user 0 com.miui.analytics }
+try { adb shell pm uninstall --user 0 com.miui.providers.weather }
+try { adb shell pm uninstall --user 0 com.miui.weather2 }
+try { adb shell pm uninstall --user 0 com.google.android.talk }
+try { adb shell pm uninstall --user 0 com.google.android.tts }
+try { adb shell pm uninstall --user 0 com.miui.virtualsim }
+try { adb shell pm uninstall --user 0 com.miui.cloudservice }
+try { adb shell pm uninstall --user 0 com.miui.cloudbackup }
+try { adb shell pm uninstall --user 0 com.xiaomi.account }
+try { adb shell pm uninstall --user 0 com.mi.webkit.core }
+try { adb shell pm uninstall --user 0 com.miui.personalassistant }
+try { adb shell pm uninstall --user 0 com.android.email }
+try { adb shell pm uninstall --user 0 com.android.midrive }
+try { adb shell pm uninstall --user 0 com.duokan.phone.remotecontroller }
+try { adb shell pm uninstall --user 0 com.android.quicksearchbox }
+try { adb shell pm uninstall --user 0 com.xiaomi.finddevice }
+try { adb shell pm uninstall --user 0 com.mfashiongallery.emag }
+try { adb shell pm uninstall --user 0 com.google.android.apps.cloudprint }
+try { adb shell pm uninstall --user 0 com.google.ar.lens }
+try { adb shell pm uninstall --user 0 com.google.android.markup }
+try { adb shell pm uninstall --user 0 com.xiaomi.mirecycle }
+try { adb shell pm uninstall --user 0 com.miui.micloudsync }
+try { adb shell pm uninstall --user 0 com.facemoji.lite.xiaomi }
+try { adb shell pm uninstall --user 0 com.miui.miservice }
+try { adb shell pm uninstall --user 0 com.miui.contentcatcher }
+try { adb shell pm uninstall --user 0 com.miui.cloudservice.sysbase }
+try { adb shell pm uninstall --user 0 com.miui.touchassistant }
+try { adb shell pm uninstall --user 0 com.xiaomi.mi_connect_service }
+try { adb shell pm uninstall --user 0 com.milink.service }
+try { adb shell pm uninstall --user 0 com.miui.greenguard }
+try { adb shell pm uninstall --user 0 com.xiaomi.miplay_client }
+try { adb shell pm uninstall --user 0 com.android.printspooler }
+try { adb shell pm uninstall --user 0 com.miui.mishare.connectivity }
+try { adb shell pm uninstall --user 0 com.android.cellbroadcastreceiver }
+try { adb shell pm uninstall --user 0 com.android.bips }
+try { adb shell pm uninstall --user 0 com.android.printservice.recommendation }
+try { adb shell pm uninstall --user 0 com.android.bookmarkprovider }
+try { adb shell pm uninstall --user 0 com.caf.fmradio }
+try { adb shell pm uninstall --user 0 com.google.android.apps.safetyhub }
+try { adb shell pm uninstall --user 0 com.google.android.apps.wearables.maestro.companion }
+try { adb shell pm uninstall --user 0 com.google.android.projection.gearhead }
+try { adb shell pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe }
