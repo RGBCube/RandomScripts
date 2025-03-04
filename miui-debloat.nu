@@ -151,13 +151,11 @@ const ids = [
   com.xiaomi.xmsf
 ]
 
-for id in $ids {
-  try {
-    adb shell pm uninstall --user 0 $id
-  } catch {
-    print $"(ansi red)($id) failed (ansi reset)"
-    continue
-  }
+print "waiting for adb device..."
+adb wait-for-device
 
-  print $"(ansi green)($id) success (ansi reset)"
+for id in $ids {
+  print --no-newline $"trying to uninstall ($id)... "
+
+  try { adb shell pm uninstall --user 0 $id o+e>| print $in }
 }
