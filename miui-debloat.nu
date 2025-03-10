@@ -130,7 +130,6 @@ const ids = [
   com.xiaomi.account
   com.xiaomi.account
   com.xiaomi.discover
-  com.xiaomi.finddevice
   com.xiaomi.glgm
   com.xiaomi.joyose
   com.xiaomi.location.fused
