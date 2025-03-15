@@ -10,7 +10,7 @@ if (ls $root | is-not-empty) {
 
 let source = input "enter directory to linearize: "
 
-ls ...(glob $"($source)/**/*")
+ls ...(glob --no-dir $"($source)/**/*")
 | where type == file
 | group-by size | values
 | each {|group|
@@ -25,7 +25,8 @@ ls ...(glob $"($source)/**/*")
   $by_identity
   | filter { ($in | length) > 1 }
   | each {|entries|
-    print $"found identical files: \n- (ansi red)($entries | get name | str join $'(ansi reset)\n- (ansi red)')(ansi reset)"
+    let separator = $"(ansi reset)\n- (ansi red)"
+    print $"found identical files: \n- (ansi red)($entries | get name | str join $separator)(ansi reset)"
   }
 
   $by_identity
