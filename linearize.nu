@@ -10,16 +10,16 @@ if (ls $root | is-not-empty) {
 
 let source = input "enter directory to linearize: "
 
-ls ...(glob --no-dir $"($source)/**/*")
+let linked = ls ...(glob --no-dir $"($source)/**/*")
 | where type == file
 | group-by size | values
-| each {|group|
+| par-each {|group|
   if ($group | length) == 1 {
     return $group
   }
 
   let by_identity = $group
-  | each { insert hash (open $in.name | hash sha256) }
+  | par-each { insert hash (open $in.name | hash sha256) }
   | group-by hash | values
 
   $by_identity
@@ -33,7 +33,7 @@ ls ...(glob --no-dir $"($source)/**/*")
   | each { get 0 }
 }
 | flatten
-| each {|entry|
+| par-each {|entry|
   let parse = $entry.name | path parse
 
   let date = $entry.modified | format date "%Y-%m-%dT%H:%M:%S"
@@ -42,4 +42,6 @@ ls ...(glob --no-dir $"($source)/**/*")
   print $"creating (ansi green)($name)(ansi reset)"
   ln $entry.name ($root | path join $name)
 }
-| ignore
+| length
+
+print $"linked a total of (ansi cyan)($linked)(ansi reset) files"
