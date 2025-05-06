@@ -3,4 +3,5 @@
 !.gitignore
 !LICENSE.md
 
+!*.lua
 !*.nu
