@@ -4,6 +4,8 @@ local location = "lalamo.txt"
 local modifier = {"cmd", "ctrl"}
 -- The key after the modifiers nescessary to trigger the prompt.
 local key = "p"
+-- The separator used to split entries in the location.
+local entry_separator = "%%%"
 
 _G.hs = _G.hs or {}
 
@@ -61,7 +63,7 @@ local fuzzySearch = function()
     return
   end
 
-  local entries = split(content, "%%%", true)
+  local entries = split(content, entry_separator, true)
 
   if #entries == 0 then
     hs.alert.show("~/" .. location .. " is empty")
