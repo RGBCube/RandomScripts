@@ -6,6 +6,8 @@ local modifier = {"cmd", "ctrl"}
 local key = "p"
 -- The separator used to split entries in the location.
 local entry_separator = "%%%"
+-- The duration of the "Copied!" alert. Set to a 0 to disable.
+local copy_alert_duration = 0.5
 
 _G.hs = _G.hs or {}
 
@@ -55,7 +57,7 @@ local read = function(path)
   return content
 end
 
-local fuzzySearch = function()
+local search = function()
   local content = read(os.getenv("HOME") .. "/" .. location)
 
   if not content then
@@ -73,6 +75,9 @@ local fuzzySearch = function()
   local chooser = hs.chooser.new(function(choice)
     if choice then
       hs.pasteboard.setContents(choice.text)
+      if copy_alert_duration ~= 0 then
+        hs.alert.show("Copied!", {}, hs.screen.mainScreen(), copy_alert_duration)
+      end
     end
   end)
 
@@ -89,4 +94,4 @@ local fuzzySearch = function()
   chooser:show()
 end
 
-hs.hotkey.bind(modifier, key, fuzzySearch)
+hs.hotkey.bind(modifier, key, search)
